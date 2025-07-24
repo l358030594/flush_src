@@ -1,0 +1,1024 @@
+{
+  "enable": false,
+  "name": "pipeline-LE_Audio",
+  "uuid": "0x99AA",
+  "childrenGroup": [
+    {
+      "id": 1701934131483,
+      "title": "默认分组",
+      "select": true,
+      "tabs": [
+        {
+          "id": "id_1701934264579_0",
+          "title": "参数组1",
+          "disable": false,
+          "selected": "A"
+        }
+      ],
+      "curTab": "id_1701934264579_0"
+    }
+  ],
+  "nodeData": {
+    "cells": [
+      {
+        "position": {
+          "x": -680,
+          "y": -280
+        },
+        "size": {
+          "width": 120,
+          "height": 80
+        },
+        "view": "vue-shape-view",
+        "shape": "vue-shape",
+        "id": "99d6fa33-8a6b-4716-ba9b-05e820b425de",
+        "component": "node-cust",
+        "group": "hardware",
+        "data": {
+          "name": "LE_Audio_Sink",
+          "group": "默认分组",
+          "uuid": "0X2DFB",
+          "type": 0,
+          "fun": 9,
+          "cmd": {
+            "exe": "",
+            "args": "",
+            "workplace": ""
+          },
+          "formFile": "",
+          "ports": [],
+          "subId": 3,
+          "itemId": 1701934131483,
+          "nodeName": "LE_Audio_Media",
+          "configs": {
+            "name": "",
+            "list": []
+          }
+        },
+        "zIndex": 38,
+        "visible": true,
+        "ports": {
+          "groups": {
+            "in": {
+              "position": "left",
+              "label": {
+                "position": "bottom"
+              },
+              "attrs": {
+                "text": {
+                  "fill": "#2b3f57",
+                  "font-size": "12",
+                  "visibility": "visible",
+                  "text": ""
+                },
+                "circle": {
+                  "r": 6,
+                  "id": "1",
+                  "event": "port:click",
+                  "magnet": true,
+                  "stroke": "#E3B14C",
+                  "strokeWidth": 2,
+                  "fill": "#f2f2f2",
+                  "style": {
+                    "visibility": "visible"
+                  }
+                }
+              }
+            },
+            "out": {
+              "position": "right",
+              "label": {
+                "position": "bottom",
+                "color": "#ffff"
+              },
+              "attrs": {
+                "text": {
+                  "fill": "#2b3f57",
+                  "font-size": "12",
+                  "visibility": "visible",
+                  "text": ""
+                },
+                "circle": {
+                  "r": 6,
+                  "magnet": true,
+                  "stroke": "#7DC06E",
+                  "strokeWidth": 2,
+                  "fill": "#f2f2f2",
+                  "event": "port:click",
+                  "style": {
+                    "visibility": "visible"
+                  }
+                }
+              }
+            }
+          },
+          "items": [
+            {
+              "group": "out",
+              "index": 1,
+              "label": {
+                "position": {
+                  "name": "outside",
+                  "args": {
+                    "y": 10
+                  }
+                }
+              },
+              "attrs": {
+                "text": {
+                  "text": "",
+                  "visibility": "visible"
+                }
+              },
+              "id": "199ed02d-f94c-4e43-ac2b-126e6a26576b"
+            }
+          ]
+        }
+      },
+      {
+        "position": {
+          "x": -520,
+          "y": -280
+        },
+        "size": {
+          "width": 80,
+          "height": 80
+        },
+        "view": "vue-shape-view",
+        "shape": "vue-shape",
+        "id": "eb168973-dfe7-4a99-93af-052989c65ad8",
+        "component": "node-cust",
+        "group": "hardware",
+        "data": {
+          "num": 3,
+          "name": "解码器",
+          "group": "编解码",
+          "type": 1,
+          "ports": [],
+          "fun": 0,
+          "cmd": {
+            "exe": "",
+            "args": "",
+            "workplace": ""
+          },
+          "formFile": "",
+          "uuid": "0X1A85",
+          "groupId": 1652095106915,
+          "draginfo": {
+            "zIndex": 10001,
+            "pos": {
+              "x": 300,
+              "y": 730
+            }
+          },
+          "itemId": 1701934131483,
+          "subId": 24,
+          "configs": {
+            "name": "",
+            "list": []
+          }
+        },
+        "zIndex": 39,
+        "visible": true,
+        "ports": {
+          "groups": {
+            "in": {
+              "position": "left",
+              "label": {
+                "position": "bottom"
+              },
+              "attrs": {
+                "circle": {
+                  "r": 6,
+                  "event": "port:click",
+                  "magnet": true,
+                  "stroke": "#409EFF",
+                  "strokeWidth": 2,
+                  "fill": "#fff",
+                  "style": {
+                    "visibility": "visible"
+                  }
+                }
+              }
+            },
+            "out": {
+              "position": "right",
+              "label": {
+                "position": "bottom"
+              },
+              "attrs": {
+                "circle": {
+                  "r": 6,
+                  "magnet": true,
+                  "stroke": "#31d0c6",
+                  "strokeWidth": 2,
+                  "fill": "#fff",
+                  "event": "port:click"
+                }
+              }
+            }
+          },
+          "items": [
+            {
+              "group": "in",
+              "dataType": "AAC;MP3;WAV",
+              "attrs": {
+                "text": {
+                  "text": "",
+                  "color": "#ffffff",
+                  "fill": "#2b3f57",
+                  "font-size": "12",
+                  "visibility": "visible"
+                },
+                "circle": {
+                  "fill": "#f2f2f2",
+                  "stroke": "#E3B14C"
+                },
+                "color": "#ffffff"
+              },
+              "id": "f6b1a025-238f-476a-8a35-7e285b7eb193",
+              "index": 0
+            },
+            {
+              "group": "out",
+              "dataType": "PCM",
+              "attrs": {
+                "text": {
+                  "text": "",
+                  "color": "#ffffff",
+                  "fill": "#2b3f57",
+                  "font-size": "12",
+                  "visibility": "visible"
+                },
+                "circle": {
+                  "fill": "#f2f2f2",
+                  "stroke": "#7DC06E"
+                },
+                "color": "#ffffff"
+              },
+              "id": "c3184336-f5f8-4399-acb7-61531732c642",
+              "index": 0
+            }
+          ]
+        }
+      },
+      {
+        "position": {
+          "x": -280,
+          "y": -280
+        },
+        "size": {
+          "width": 80,
+          "height": 80
+        },
+        "view": "vue-shape-view",
+        "shape": "vue-shape",
+        "id": "d35e6a89-13a9-4155-9c63-34ff27a2c854",
+        "component": "node-cust",
+        "group": "hardware",
+        "data": {
+          "name": "音量控制器",
+          "group": "控制",
+          "uuid": "0X74E3",
+          "type": 1,
+          "fun": 1,
+          "cmd": {
+            "exe": "",
+            "args": "",
+            "workplace": ""
+          },
+          "formFile": "../../.音量配置.json",
+          "ports": [],
+          "groupId": 1652095106915,
+          "draginfo": {
+            "zIndex": 10001,
+            "pos": {
+              "x": 130,
+              "y": 310
+            }
+          },
+          "itemId": 1701934131483,
+          "subId": 30,
+          "configs": {
+            "name": "LEA_Media",
+            "list": [
+              {
+                "modeId": "id_1701934264579_0",
+                "name": "LEA_Media",
+                "current": "",
+                "bypass": false,
+                "list": [
+                  {
+                    "name": "arg0",
+                    "data": [
+                      {
+                        "id": "id_1676447331464_3",
+                        "list": [
+                          {
+                            "id": "id_1681280938229_0",
+                            "value": 0
+                          },
+                          {
+                            "id": "id_1676447481291_4",
+                            "value": 16
+                          },
+                          {
+                            "id": "id_1676447941026_6",
+                            "value": -45
+                          },
+                          {
+                            "id": "id_1678088452701_0",
+                            "value": 1
+                          },
+                          {
+                            "id": "id_1677290960342_0",
+                            "value": 0
+                          },
+                          {
+                            "id": "id_1690535811640_0",
+                            "value": 5
+                          },
+                          {
+                            "id": "id_1676801188975_0",
+                            "value": 5
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_1677751149521_1",
+                        "list": []
+                      }
+                    ],
+                    "enable": true,
+                    "bypass": false
+                  }
+                ],
+                "preset": [
+                  {
+                    "name": "arg0",
+                    "data": [
+                      {
+                        "id": "id_1676447331464_3",
+                        "list": [
+                          {
+                            "id": "id_1681280938229_0",
+                            "value": 0
+                          },
+                          {
+                            "id": "id_1676447481291_4",
+                            "value": 16
+                          },
+                          {
+                            "id": "id_1676447941026_6",
+                            "value": -45
+                          },
+                          {
+                            "id": "id_1678088452701_0",
+                            "value": 1
+                          },
+                          {
+                            "id": "id_1677290960342_0",
+                            "value": 0
+                          },
+                          {
+                            "id": "id_1690535811640_0",
+                            "value": 5
+                          },
+                          {
+                            "id": "id_1676801188975_0",
+                            "value": 5
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_1677751149521_1",
+                        "list": []
+                      }
+                    ],
+                    "enable": true,
+                    "bypass": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "zIndex": 40,
+        "visible": true,
+        "ports": {
+          "groups": {
+            "in": {
+              "position": "left",
+              "label": {
+                "position": "bottom"
+              },
+              "attrs": {
+                "text": {
+                  "fill": "#ddd",
+                  "font-size": "12"
+                },
+                "circle": {
+                  "r": 6,
+                  "id": "1",
+                  "event": "port:click",
+                  "magnet": true,
+                  "stroke": "#E3B14C",
+                  "strokeWidth": 2,
+                  "fill": "#2D3344",
+                  "style": {
+                    "visibility": "visible"
+                  }
+                }
+              }
+            },
+            "out": {
+              "position": "right",
+              "label": {
+                "position": "bottom",
+                "color": "#fffF"
+              },
+              "attrs": {
+                "text": {
+                  "fill": "#ddd",
+                  "font-size": "12"
+                },
+                "circle": {
+                  "r": 6,
+                  "magnet": true,
+                  "stroke": "#7DC06E",
+                  "strokeWidth": 2,
+                  "fill": "#3D3D3D",
+                  "event": "port:click"
+                }
+              }
+            }
+          },
+          "items": [
+            {
+              "group": "in",
+              "index": 0,
+              "label": {
+                "position": {
+                  "name": "outside",
+                  "args": {
+                    "y": 10
+                  }
+                }
+              },
+              "attrs": {
+                "text": {
+                  "text": "",
+                  "fill": "#2b3f57",
+                  "font-size": "12",
+                  "visibility": "visible"
+                },
+                "circle": {
+                  "fill": "#f2f2f2",
+                  "stroke": "#E3B14C"
+                }
+              },
+              "id": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+            },
+            {
+              "group": "out",
+              "index": 0,
+              "label": {
+                "position": {
+                  "name": "outside",
+                  "args": {
+                    "y": 10
+                  }
+                }
+              },
+              "attrs": {
+                "text": {
+                  "text": "",
+                  "fill": "#2b3f57",
+                  "font-size": "12",
+                  "visibility": "visible"
+                },
+                "circle": {
+                  "fill": "#f2f2f2",
+                  "stroke": "#7DC06E"
+                }
+              },
+              "id": "4decb197-2782-4173-a600-958942b8109d"
+            }
+          ]
+        }
+      },
+      {
+        "position": {
+          "x": -400,
+          "y": -280
+        },
+        "size": {
+          "width": 80,
+          "height": 80
+        },
+        "view": "vue-shape-view",
+        "shape": "vue-shape",
+        "id": "48058b8d-975e-45b1-bed6-7e51e11662a2",
+        "component": "node-cust",
+        "group": "hardware",
+        "data": {
+          "name": "蓝牙音频同步",
+          "group": "控制",
+          "uuid": "0XA576",
+          "type": 1,
+          "fun": 1,
+          "cmd": {
+            "exe": "",
+            "args": "",
+            "workplace": ""
+          },
+          "formFile": "../../.sync配置.json",
+          "ports": [],
+          "groupId": 1652095106915,
+          "draginfo": {
+            "zIndex": 10001,
+            "pos": {
+              "x": 410,
+              "y": 730
+            }
+          },
+          "itemId": 1701934131483,
+          "subId": 18,
+          "configs": {
+            "name": "config4235815",
+            "list": [
+              {
+                "name": "config4235815",
+                "current": "arg0",
+                "list": [
+                  {
+                    "name": "arg0",
+                    "data": [
+                      {
+                        "id": "id_1693539807876_1",
+                        "list": [
+                          {
+                            "id": "id_1693469084872_1",
+                            "value": 2
+                          },
+                          {
+                            "id": "id_1716965372533_1",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ],
+                    "enable": true,
+                    "bypass": false
+                  }
+                ],
+                "modeId": "id_1701934264579_0",
+                "preset": [
+                  {
+                    "name": "arg0",
+                    "data": [
+                      {
+                        "id": "id_1693539807876_1",
+                        "list": [
+                          {
+                            "id": "id_1693469084872_1",
+                            "value": 2
+                          },
+                          {
+                            "id": "id_1716965372533_1",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ],
+                    "enable": true,
+                    "bypass": false
+                  }
+                ],
+                "bypass": false
+              }
+            ]
+          },
+          "dynamicPort": {
+            "iMax": 0,
+            "iMin": 0,
+            "oMax": 0,
+            "oMin": 0
+          }
+        },
+        "zIndex": 42,
+        "visible": true,
+        "ports": {
+          "groups": {
+            "in": {
+              "position": "left",
+              "label": {
+                "position": "bottom"
+              },
+              "attrs": {
+                "text": {
+                  "fill": "#c6cedd",
+                  "font-size": "12"
+                },
+                "circle": {
+                  "r": 6,
+                  "id": "1",
+                  "event": "port:click",
+                  "magnet": true,
+                  "stroke": "#49B7FA",
+                  "strokeWidth": 2,
+                  "fill": "#2D3344",
+                  "style": {
+                    "visibility": "visible"
+                  }
+                }
+              }
+            },
+            "out": {
+              "position": "right",
+              "label": {
+                "position": "bottom",
+                "color": "#fffF"
+              },
+              "attrs": {
+                "text": {
+                  "fill": "#c6cedd",
+                  "font-size": "12"
+                },
+                "circle": {
+                  "r": 6,
+                  "magnet": true,
+                  "stroke": "#88F16F",
+                  "strokeWidth": 2,
+                  "fill": "#2D3344",
+                  "event": "port:click"
+                }
+              }
+            }
+          },
+          "items": [
+            {
+              "group": "in",
+              "index": 0,
+              "label": {
+                "position": {
+                  "name": "outside",
+                  "args": {
+                    "y": 10
+                  }
+                }
+              },
+              "attrs": {
+                "text": {
+                  "text": "",
+                  "fill": "#2b3f57",
+                  "font-size": "12",
+                  "visibility": "visible"
+                },
+                "circle": {
+                  "fill": "#f2f2f2",
+                  "stroke": "#E3B14C"
+                }
+              },
+              "id": "e603488f-6e9b-497f-9aa1-2a74ee00ff5e"
+            },
+            {
+              "group": "out",
+              "index": 0,
+              "label": {
+                "position": {
+                  "name": "outside",
+                  "args": {
+                    "y": 10
+                  }
+                }
+              },
+              "attrs": {
+                "text": {
+                  "text": "",
+                  "fill": "#2b3f57",
+                  "font-size": "12",
+                  "visibility": "visible"
+                },
+                "circle": {
+                  "fill": "#f2f2f2",
+                  "stroke": "#7DC06E"
+                }
+              },
+              "id": "b71c2066-9e03-4698-9ed3-2e714f17e78a"
+            }
+          ]
+        }
+      },
+      {
+        "position": {
+          "x": -160,
+          "y": -280
+        },
+        "size": {
+          "width": 80,
+          "height": 80
+        },
+        "view": "vue-shape-view",
+        "shape": "vue-shape",
+        "id": "5da78ac4-51c0-4ebd-80d6-e658bd199d1d",
+        "component": "node-cust",
+        "group": "hardware",
+        "data": {
+          "name": "Source",
+          "group": "标签",
+          "uuid": "0XEB56",
+          "type": 2,
+          "fun": 11,
+          "cmd": {
+            "exe": "",
+            "args": "",
+            "workplace": ""
+          },
+          "formFile": "",
+          "ports": [],
+          "subId": 3,
+          "itemId": 1701934131483,
+          "configs": {
+            "name": "lea_media",
+            "list": []
+          },
+          "edit": false
+        },
+        "zIndex": 43,
+        "visible": true,
+        "ports": {
+          "groups": {
+            "in": {
+              "position": "left",
+              "label": {
+                "position": "bottom"
+              },
+              "attrs": {
+                "text": {
+                  "fill": "#2b3f57",
+                  "font-size": "12",
+                  "visibility": "visible",
+                  "text": ""
+                },
+                "circle": {
+                  "r": 6,
+                  "id": "1",
+                  "event": "port:click",
+                  "magnet": true,
+                  "stroke": "#E3B14C",
+                  "strokeWidth": 2,
+                  "fill": "#f2f2f2",
+                  "style": {
+                    "visibility": "visible"
+                  }
+                }
+              }
+            },
+            "out": {
+              "position": "right",
+              "label": {
+                "position": "bottom",
+                "color": "#ffff"
+              },
+              "attrs": {
+                "text": {
+                  "fill": "#2b3f57",
+                  "font-size": "12",
+                  "visibility": "visible",
+                  "text": ""
+                },
+                "circle": {
+                  "r": 6,
+                  "magnet": true,
+                  "stroke": "#7DC06E",
+                  "strokeWidth": 2,
+                  "fill": "#f2f2f2",
+                  "event": "port:click",
+                  "style": {
+                    "visibility": "visible"
+                  }
+                }
+              }
+            }
+          },
+          "items": [
+            {
+              "group": "in",
+              "index": 0,
+              "label": {
+                "position": {
+                  "name": "outside",
+                  "args": {
+                    "y": 10
+                  }
+                }
+              },
+              "attrs": {
+                "text": {
+                  "text": "",
+                  "visibility": "visible"
+                }
+              },
+              "id": "ab0b2b79-efec-4661-b735-d0a3b27b22cb"
+            }
+          ]
+        }
+      },
+      {
+        "shape": "edge",
+        "attrs": {
+          "line": {
+            "stroke": "#A4A5A9",
+            "strokeWidth": "2px",
+            "targetMarker": {
+              "tagName": "path",
+              "d": "M 12 -5 0 0 12 5 Z",
+              "strokeWidth": 2,
+              "fill": "#A4A5A9",
+              "stroke": "#A4A5A9"
+            },
+            "distance": 40
+          },
+          "class": {
+            "0": "c",
+            "1": "l",
+            "2": "a",
+            "3": "s",
+            "4": "s",
+            "5": "-",
+            "6": "e",
+            "7": "d",
+            "8": "g",
+            "9": "e",
+            "10": "-",
+            "11": "t",
+            "12": "e",
+            "13": "s",
+            "14": "t"
+          }
+        },
+        "id": "4560dd39-5f1c-4980-8d4d-dd196bb0deaa",
+        "data": {
+          "itemId": 1701934131483
+        },
+        "zIndex": 44,
+        "visible": true,
+        "source": {
+          "cell": "99d6fa33-8a6b-4716-ba9b-05e820b425de",
+          "port": "199ed02d-f94c-4e43-ac2b-126e6a26576b"
+        },
+        "target": {
+          "cell": "eb168973-dfe7-4a99-93af-052989c65ad8",
+          "port": "f6b1a025-238f-476a-8a35-7e285b7eb193"
+        }
+      },
+      {
+        "shape": "edge",
+        "attrs": {
+          "line": {
+            "stroke": "#A4A5A9",
+            "strokeWidth": "2px",
+            "targetMarker": {
+              "tagName": "path",
+              "d": "M 12 -5 0 0 12 5 Z",
+              "strokeWidth": 2,
+              "fill": "#A4A5A9",
+              "stroke": "#A4A5A9"
+            },
+            "distance": 40
+          },
+          "class": {
+            "0": "c",
+            "1": "l",
+            "2": "a",
+            "3": "s",
+            "4": "s",
+            "5": "-",
+            "6": "e",
+            "7": "d",
+            "8": "g",
+            "9": "e",
+            "10": "-",
+            "11": "t",
+            "12": "e",
+            "13": "s",
+            "14": "t"
+          }
+        },
+        "id": "b06fc283-d42a-4b80-acc1-362d35456979",
+        "data": {
+          "itemId": 1701934131483
+        },
+        "zIndex": 58,
+        "visible": true,
+        "source": {
+          "cell": "eb168973-dfe7-4a99-93af-052989c65ad8",
+          "port": "c3184336-f5f8-4399-acb7-61531732c642"
+        },
+        "target": {
+          "cell": "48058b8d-975e-45b1-bed6-7e51e11662a2",
+          "port": "e603488f-6e9b-497f-9aa1-2a74ee00ff5e"
+        }
+      },
+      {
+        "shape": "edge",
+        "attrs": {
+          "line": {
+            "stroke": "#A4A5A9",
+            "strokeWidth": "2px",
+            "targetMarker": {
+              "tagName": "path",
+              "d": "M 12 -5 0 0 12 5 Z",
+              "strokeWidth": 2,
+              "fill": "#A4A5A9",
+              "stroke": "#A4A5A9"
+            },
+            "distance": 40
+          },
+          "class": {
+            "0": "c",
+            "1": "l",
+            "2": "a",
+            "3": "s",
+            "4": "s",
+            "5": "-",
+            "6": "e",
+            "7": "d",
+            "8": "g",
+            "9": "e",
+            "10": "-",
+            "11": "t",
+            "12": "e",
+            "13": "s",
+            "14": "t"
+          }
+        },
+        "id": "a2c78f20-57ac-4916-9c1b-06213d3e72ef",
+        "data": {
+          "itemId": 1701934131483
+        },
+        "zIndex": 59,
+        "visible": true,
+        "source": {
+          "cell": "48058b8d-975e-45b1-bed6-7e51e11662a2",
+          "port": "b71c2066-9e03-4698-9ed3-2e714f17e78a"
+        },
+        "target": {
+          "cell": "d35e6a89-13a9-4155-9c63-34ff27a2c854",
+          "port": "fb076936-fb8e-408a-9e5a-1462ed222bb6"
+        }
+      },
+      {
+        "shape": "edge",
+        "attrs": {
+          "line": {
+            "stroke": "#A4A5A9",
+            "strokeWidth": "2px",
+            "targetMarker": {
+              "tagName": "path",
+              "d": "M 12 -5 0 0 12 5 Z",
+              "strokeWidth": 2,
+              "fill": "#A4A5A9",
+              "stroke": "#A4A5A9"
+            },
+            "distance": 40
+          },
+          "class": {
+            "0": "c",
+            "1": "l",
+            "2": "a",
+            "3": "s",
+            "4": "s",
+            "5": "-",
+            "6": "e",
+            "7": "d",
+            "8": "g",
+            "9": "e",
+            "10": "-",
+            "11": "t",
+            "12": "e",
+            "13": "s",
+            "14": "t"
+          }
+        },
+        "id": "64a5b8c0-38ee-4b36-a091-eff4884b402e",
+        "data": {
+          "itemId": 1701934131483
+        },
+        "zIndex": 60,
+        "visible": true,
+        "source": {
+          "cell": "d35e6a89-13a9-4155-9c63-34ff27a2c854",
+          "port": "4decb197-2782-4173-a600-958942b8109d"
+        },
+        "target": {
+          "cell": "5da78ac4-51c0-4ebd-80d6-e658bd199d1d",
+          "port": "ab0b2b79-efec-4661-b735-d0a3b27b22cb"
+        }
+      }
+    ]
+  },
+  "bitWidth": 16,
+  "showConfigName": false
+}

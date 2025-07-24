@@ -1,0 +1,1307 @@
+{
+  "uuid": "1",
+  "enable": true,
+  "current": "tone_en",
+  "group": [
+    {
+      "title": "tone_en",
+      "configName": "TCFG_TONE_EN_ENABLE",
+      "files": [
+        {
+          "name": "数字0",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\0.mp3",
+          "default": true,
+          "enable": true,
+          "outputName": "0",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "40f40e9f",
+          "size": 1799
+        },
+        {
+          "name": "数字1",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\1.mp3",
+          "default": true,
+          "enable": true,
+          "outputName": "1",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "8f029c97",
+          "size": 1503
+        },
+        {
+          "name": "数字2",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\2.mp3",
+          "outputName": "2",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "5465883e",
+          "size": 1389
+        },
+        {
+          "name": "数字3",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\3.mp3",
+          "outputName": "3",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "5e715a45",
+          "size": 1469
+        },
+        {
+          "name": "数字4",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\4.mp3",
+          "outputName": "4",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "9685145a",
+          "size": 1629
+        },
+        {
+          "name": "数字5",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\5.mp3",
+          "outputName": "5",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "eeb1da70",
+          "size": 1225
+        },
+        {
+          "name": "数字6",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\6.mp3",
+          "outputName": "6",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "7bbe78c5",
+          "size": 2000
+        },
+        {
+          "name": "数字7",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\7.mp3",
+          "outputName": "7",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "4121646c",
+          "size": 1863
+        },
+        {
+          "name": "数字8",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\8.mp3",
+          "outputName": "8",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "662b5b6",
+          "size": 1315
+        },
+        {
+          "name": "数字9",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\9.mp3",
+          "outputName": "9",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "3e766fcb",
+          "size": 1517
+        },
+        {
+          "name": "开机",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\power_on.mp3",
+          "outputName": "power_on",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "5e70b504",
+          "size": 1941
+        },
+        {
+          "name": "关机",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\power_off.mp3",
+          "outputName": "power_off",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "48e0fbf",
+          "size": 2278
+        },
+        {
+          "name": "低电",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\low_power.mp3",
+          "outputName": "low_power",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "e75fc1f0",
+          "size": 2219
+        },
+        {
+          "name": "最大音量",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\vol_max.mp3",
+          "outputName": "vol_max",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "4305ccab",
+          "size": 3187
+        },
+        {
+          "name": "连接成功",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\connect.mp3",
+          "outputName": "bt_conn",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "70a2ca65",
+          "size": 1948
+        },
+        {
+          "name": "连接断开",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\disconnect.mp3",
+          "outputName": "bt_dconn",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "b5cf14ab",
+          "size": 2428
+        },
+        {
+          "name": "响铃",
+          "path": "%TOOL_PATH%\\resource\\提示音\\ring.sin",
+          "outputName": "ring",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "sin"
+          },
+          "sizeKey": "a8cecfc9",
+          "size": 36
+        },
+        {
+          "name": "进入游戏模式",
+          "path": "%TOOL_PATH%\\resource\\提示音\\game_in.sin",
+          "outputName": "game_in",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "sin"
+          },
+          "sizeKey": "911e7082",
+          "size": 20
+        },
+        {
+          "name": "退出游戏模式",
+          "path": "%TOOL_PATH%\\resource\\提示音\\game_out.sin",
+          "outputName": "game_out",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "sin"
+          },
+          "sizeKey": "c16ba363",
+          "size": 20
+        },
+        {
+          "name": "TWS连接",
+          "path": "%TOOL_PATH%\\resource\\提示音\\tws_conn.sin",
+          "outputName": "tws_conn",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "sin"
+          },
+          "sizeKey": "f58e77d",
+          "size": 20
+        },
+        {
+          "name": "TWS断开",
+          "path": "%TOOL_PATH%\\resource\\提示音\\tws_dconn.sin",
+          "outputName": "tws_dconn",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "sin"
+          },
+          "sizeKey": "8544c248",
+          "size": 36
+        },
+        {
+          "name": "默认",
+          "path": "%TOOL_PATH%\\resource\\提示音\\normal.sin",
+          "outputName": "normal",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "sin"
+          },
+          "sizeKey": "23ee003b",
+          "size": 20
+        },
+        {
+          "name": "ANC开",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\anc_on.wav",
+          "outputName": "anc_on",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "aa97e73c",
+          "size": 2916
+        },
+        {
+          "name": "ANC关",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\anc_off.wav",
+          "outputName": "anc_off",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "b83fdeda",
+          "size": 2919
+        },
+        {
+          "name": "通透模式",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\anc_trans.wav",
+          "outputName": "anc_trans",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "1684d07e",
+          "size": 3274
+        },
+        {
+          "name": "adaptive",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\adaptive.wav",
+          "outputName": "adaptive",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "bfaf243d",
+          "size": 2472
+        },
+        {
+          "name": "智能免摘开",
+          "path": "%TOOL_PATH%\\resource\\提示音\\ICSD_ADT\\spkchat_on.mp3",
+          "outputName": "spkchat_on",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": false,
+          "sizeKey": "78d7a520",
+          "size": 3637
+        },
+        {
+          "name": "智能免摘关",
+          "path": "%TOOL_PATH%\\resource\\提示音\\ICSD_ADT\\spkchat_off.mp3",
+          "outputName": "spkchat_off",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": false,
+          "sizeKey": "7ef172fe",
+          "size": 3599
+        },
+        {
+          "name": "风噪检测开",
+          "path": "%TOOL_PATH%\\resource\\提示音\\ICSD_ADT\\winddet_on.mp3",
+          "outputName": "winddet_on",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": false,
+          "sizeKey": "b20914a1",
+          "size": 3701
+        },
+        {
+          "name": "风噪检测关",
+          "path": "%TOOL_PATH%\\resource\\提示音\\ICSD_ADT\\winddet_off.mp3",
+          "outputName": "winddet_off",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": false,
+          "sizeKey": "2ae0e9ff",
+          "size": 3578
+        },
+        {
+          "name": "广域点击开",
+          "path": "%TOOL_PATH%\\resource\\提示音\\ICSD_ADT\\wclick_on.mp3",
+          "outputName": "wclick_on",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": false,
+          "sizeKey": "e0b98cd8",
+          "size": 3468
+        },
+        {
+          "name": "广域点击关",
+          "path": "%TOOL_PATH%\\resource\\提示音\\ICSD_ADT\\wclick_off.mp3",
+          "outputName": "wclick_off",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": false,
+          "sizeKey": "c1a92f6d",
+          "size": 3368
+        },
+        {
+          "name": "按键音",
+          "path": "%TOOL_PATH%\\resource\\提示音\\key_tone.sin",
+          "outputName": "key_tone",
+          "default": true,
+          "enable": false,
+          "format": {
+            "value": "sin"
+          },
+          "sizeKey": "19220ad0",
+          "size": 20
+        },
+        {
+          "name": "bt模式",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\bt.mp3",
+          "outputName": "bt",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "dc3faa4e",
+          "size": 2696
+        },
+        {
+          "name": "linein模式",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\linein_en.mp3",
+          "outputName": "linein",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "35ee5814",
+          "size": 3770
+        },
+        {
+          "name": "pc模式",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\pc.mp3",
+          "outputName": "pc",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "2ef11861",
+          "size": 2997
+        },
+        {
+          "name": "music模式",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\music.mp3",
+          "outputName": "music",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "ca2cc0b1",
+          "size": 1552
+        },
+        {
+          "name": "贴合度检测",
+          "path": "%TOOL_PATH%\\resource\\提示音\\fit_dec_on.wav",
+          "outputName": "fit_det_on",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": false,
+          "sizeKey": "adae8a29",
+          "size": 5264
+        },
+        {
+          "name": "共享搜索配对",
+          "path": "%TOOL_PATH%\\resource\\提示音\\share_audio\\share search pairing.mp3",
+          "outputName": "sharesearc",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "de2e7428",
+          "size": 3243
+        },
+        {
+          "name": "共享等待配对",
+          "path": "%TOOL_PATH%\\resource\\提示音\\share_audio\\share wait pairing.mp3",
+          "outputName": "sharewait",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "a47106a4",
+          "size": 3020
+        },
+        {
+          "name": "共享主机",
+          "path": "%TOOL_PATH%\\resource\\提示音\\share_audio\\share master .mp3",
+          "outputName": "sharemaster",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "80caa41a",
+          "size": 2753
+        },
+        {
+          "name": "共享从机",
+          "path": "%TOOL_PATH%\\resource\\提示音\\share_audio\\share slave.mp3",
+          "outputName": "shareslaver",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "b5422a03",
+          "size": 2548
+        },
+        {
+          "name": "共享断开",
+          "path": "%TOOL_PATH%\\resource\\提示音\\share_audio\\share disconnect.mp3",
+          "outputName": "share_dconn",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "69703172",
+          "size": 2986
+        }
+      ],
+      "enableOutput": 1,
+      "size": 67408,
+      "isOpen": false
+    },
+    {
+      "title": "tone_zh",
+      "configName": "TCFG_TONE_ZH_ENABLE",
+      "files": [
+        {
+          "name": "数字0",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\0.mp3",
+          "default": true,
+          "enable": true,
+          "outputName": "0",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "b3f9fb21",
+          "size": 1192
+        },
+        {
+          "name": "数字1",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\1.mp3",
+          "default": true,
+          "enable": true,
+          "outputName": "1",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "be30ad8c",
+          "size": 1428
+        },
+        {
+          "name": "数字2",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\2.mp3",
+          "outputName": "2",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "9cbe7631",
+          "size": 1142
+        },
+        {
+          "name": "数字3",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\3.mp3",
+          "outputName": "3",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "ec3a2a0d",
+          "size": 1628
+        },
+        {
+          "name": "数字4",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\4.mp3",
+          "outputName": "4",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "7318b90c",
+          "size": 1316
+        },
+        {
+          "name": "数字5",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\5.mp3",
+          "outputName": "5",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "f9d78710",
+          "size": 1436
+        },
+        {
+          "name": "数字6",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\6.mp3",
+          "outputName": "6",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "88c13d71",
+          "size": 1435
+        },
+        {
+          "name": "数字7",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\7.mp3",
+          "outputName": "7",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "6ed37d50",
+          "size": 1477
+        },
+        {
+          "name": "数字8",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\8.mp3",
+          "outputName": "8",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "383ee615",
+          "size": 1114
+        },
+        {
+          "name": "数字9",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\9.mp3",
+          "outputName": "9",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "8ca6ea12",
+          "size": 1468
+        },
+        {
+          "name": "开机",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\power_on.mp3",
+          "outputName": "power_on",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "85f77564",
+          "size": 2165
+        },
+        {
+          "name": "关机",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\power_off.mp3",
+          "outputName": "power_off",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "cadff824",
+          "size": 2313
+        },
+        {
+          "name": "低电",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\low_power.mp3",
+          "outputName": "low_power",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "80124422",
+          "size": 3186
+        },
+        {
+          "name": "最大音量",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\vol_max.mp3",
+          "outputName": "vol_max",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "9e858111",
+          "size": 3061
+        },
+        {
+          "name": "连接成功",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\connect.mp3",
+          "outputName": "connect",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "c31a23c",
+          "size": 2038
+        },
+        {
+          "name": "连接断开",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\disconnect.mp3",
+          "outputName": "disconnect",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "fb268b25",
+          "size": 2545
+        },
+        {
+          "name": "响铃",
+          "path": "%TOOL_PATH%\\resource\\提示音\\ring.sin",
+          "outputName": "ring",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "sin"
+          },
+          "sizeKey": "a8cecfc9",
+          "size": 36
+        },
+        {
+          "name": "进入游戏模式",
+          "path": "%TOOL_PATH%\\resource\\提示音\\game_in.sin",
+          "outputName": "game_in",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "sin"
+          },
+          "sizeKey": "911e7082",
+          "size": 20
+        },
+        {
+          "name": "退出游戏模式",
+          "path": "%TOOL_PATH%\\resource\\提示音\\game_out.sin",
+          "outputName": "game_out",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "sin"
+          },
+          "sizeKey": "c16ba363",
+          "size": 20
+        },
+        {
+          "name": "TWS连接",
+          "path": "%TOOL_PATH%\\resource\\提示音\\tws_conn.sin",
+          "outputName": "tws_conn",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "sin"
+          },
+          "sizeKey": "f58e77d",
+          "size": 20
+        },
+        {
+          "name": "TWS断开",
+          "path": "%TOOL_PATH%\\resource\\提示音\\tws_dconn.sin",
+          "outputName": "tws_dconn",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "sin"
+          },
+          "sizeKey": "8544c248",
+          "size": 36
+        },
+        {
+          "name": "默认",
+          "path": "%TOOL_PATH%\\resource\\提示音\\normal.sin",
+          "outputName": "normal",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "sin"
+          },
+          "sizeKey": "23ee003b",
+          "size": 20
+        },
+        {
+          "name": "ANC开",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\anc_on.wav",
+          "outputName": "anc_on",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "c3a862c1",
+          "size": 2919
+        },
+        {
+          "name": "ANC关",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\anc_off.wav",
+          "outputName": "anc_off",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "e178ddff",
+          "size": 2624
+        },
+        {
+          "name": "通透模式",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\anc_trans.wav",
+          "outputName": "anc_trans",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "157cd0cc",
+          "size": 3075
+        },
+        {
+          "name": "adaptive",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\adaptive.wav",
+          "outputName": "adaptive",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "5ecc9502",
+          "size": 2472
+        },
+        {
+          "name": "智能免摘开",
+          "path": "%TOOL_PATH%\\resource\\提示音\\ICSD_ADT\\spkchat_on.mp3",
+          "outputName": "spkchat_on",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "78d7a520",
+          "size": 3637
+        },
+        {
+          "name": "智能免摘关",
+          "path": "%TOOL_PATH%\\resource\\提示音\\ICSD_ADT\\spkchat_off.mp3",
+          "outputName": "spkchat_off",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "7ef172fe",
+          "size": 3599
+        },
+        {
+          "name": "风噪检测开",
+          "path": "%TOOL_PATH%\\resource\\提示音\\ICSD_ADT\\winddet_on.mp3",
+          "outputName": "winddet_on",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "b20914a1",
+          "size": 3701
+        },
+        {
+          "name": "风噪检测关",
+          "path": "%TOOL_PATH%\\resource\\提示音\\ICSD_ADT\\winddet_off.mp3",
+          "outputName": "winddet_off",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "2ae0e9ff",
+          "size": 3578
+        },
+        {
+          "name": "广域点击开",
+          "path": "%TOOL_PATH%\\resource\\提示音\\ICSD_ADT\\wclick_on.mp3",
+          "outputName": "wclick_on",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "e0b98cd8",
+          "size": 3468
+        },
+        {
+          "name": "广域点击关",
+          "path": "%TOOL_PATH%\\resource\\提示音\\ICSD_ADT\\wclick_off.mp3",
+          "outputName": "wclick_off",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "c1a92f6d",
+          "size": 3368
+        },
+        {
+          "name": "按键音",
+          "path": "%TOOL_PATH%\\resource\\提示音\\key_tone.sin",
+          "outputName": "key_tone",
+          "default": true,
+          "enable": true,
+          "format": {
+            "value": "sin"
+          },
+          "sizeKey": "19220ad0",
+          "size": 20
+        },
+        {
+          "name": "bt模式",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\bt.mp3",
+          "outputName": "bt",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "dc3faa4e",
+          "size": 2696
+        },
+        {
+          "name": "linein模式",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\linein_en.mp3",
+          "outputName": "linein",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "35ee5814",
+          "size": 3770
+        },
+        {
+          "name": "pc模式",
+          "path": "%TOOL_PATH%\\resource\\提示音\\英文\\pc.mp3",
+          "outputName": "pc",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "2ef11861",
+          "size": 2997
+        },
+        {
+          "name": "music模式",
+          "path": "%TOOL_PATH%\\resource\\提示音\\中文\\music.mp3",
+          "outputName": "music",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "be996b40",
+          "size": 2547
+        },
+        {
+          "name": "贴合度检测",
+          "path": "%TOOL_PATH%\\resource\\提示音\\fit_dec_on.wav",
+          "outputName": "fit_det_on",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "enable": true,
+          "sizeKey": "adae8a29",
+          "size": 5264
+        },
+        {
+          "name": "共享搜索配对",
+          "path": "%TOOL_PATH%\\resource\\提示音\\share_audio\\共享搜索配对.mp3",
+          "outputName": "sharesearc",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "c8b20ed6",
+          "enable": true,
+          "size": 4356
+        },
+        {
+          "name": "共享等待配对",
+          "path": "%TOOL_PATH%\\resource\\提示音\\share_audio\\共享等待配对.mp3",
+          "outputName": "sharewait",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "6626f8a6",
+          "enable": true,
+          "size": 4258
+        },
+        {
+          "name": "共享主机",
+          "path": "%TOOL_PATH%\\resource\\提示音\\share_audio\\共享主机.mp3",
+          "outputName": "sharemaster",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "ea596189",
+          "enable": true,
+          "size": 3450
+        },
+        {
+          "name": "共享从机",
+          "path": "%TOOL_PATH%\\resource\\提示音\\share_audio\\共享从机.mp3",
+          "outputName": "shareslaver",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "f41253eb",
+          "size": 3861
+        },
+        {
+          "name": "共享断开",
+          "path": "%TOOL_PATH%\\resource\\提示音\\share_audio\\共享断开.mp3",
+          "outputName": "share_dcon",
+          "format": {
+            "value": "wts",
+            "simpleRate": "16000",
+            "bitRate": 16000,
+            "vad": 0,
+            "priority": 1
+          },
+          "sizeKey": "c1741c63",
+          "size": 3426
+        }
+      ],
+      "enableOutput": 0,
+      "size": 90688,
+      "isOpen": false
+    }
+  ]
+}
